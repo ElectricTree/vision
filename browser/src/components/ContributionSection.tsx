@@ -132,12 +132,12 @@ export function ContributionSection() {
                 <div className="responseContainer w-full pl-16">
                   <p className="text-lg">
                     This vision board is a participatory art piece, where you,
-                    pledge, become a part of our whole.
+                    vision, become a part of our whole.
                   </p>
                   <div className="flex">
                     <p className="text-lg pb-2">
-                      What does <span className="shimmer">Eden Dao</span> mean
-                      to you?
+                      What does <span className="shimmer">Electric Tree</span>{" "}
+                      mean to you?
                     </p>
                     <span className="flex-grow" />
                     <p className="text-lg opacity-50 mb-0 pb-2">

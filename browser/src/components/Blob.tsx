@@ -48,7 +48,7 @@ export function BlobShaderMaterial({ speed, color, offset }: ShaderProps) {
     () => ({
       uniforms: {
         uTime: { value: 0 },
-        uHue: { value: 0.4 + color / 2 },
+        uHue: { value: 1 },
         uSpeed: { value: speed },
         uNoiseDensity: { value: 0.5 },
         uNoiseStrength: { value: 0.03 },

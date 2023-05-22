@@ -5,8 +5,8 @@ export function DevelopmentBanner() {
     <>
       <div className="banner">
         <p>
-          Signing this pledge is your ticket into the Eden Dao community and
-          greenlists you for all our drops.
+          Signing this vision is your ticket into the Electric Tree community
+          and greenlists you for all our drops.
         </p>
         <p>
           We would also love for you to share this forward with 2-5 more people

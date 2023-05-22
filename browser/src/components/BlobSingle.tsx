@@ -86,7 +86,7 @@ export function BlobSingle({
         lowRes={lowRes}
         meshProps={{ rotation }}
         speed={getMessageChunk(message, 0, 0.1, 0.5)}
-        color={Object.keys(Sense).indexOf(pattern) * PatternColorIncrement}
+        color={1}
         offset={getMessageChunk(message, 3, 0, 2 * Math.PI)}
       />
     </>

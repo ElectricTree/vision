@@ -21,7 +21,7 @@ const app = addAsync(express())
 app.use(express.json())
 
 const origin = process.env.ORIGIN || "http://localhost:3000"
-const pledgeCORS = cors({ origin })
+const visionCORS = cors({ origin })
 
 const prisma = new PrismaClient()
 const services = { prisma }
@@ -29,23 +29,23 @@ const services = { prisma }
 app.options("/greenlist/:address", cors())
 app.getAsync("/greenlist/:address", cors(), getGreenlistStatus(services))
 
-app.options("/authors/", pledgeCORS)
-app.postAsync("/authors/", pledgeCORS, addAuthor(services))
-app.getAsync("/authors/", pledgeCORS, getAuthors(services))
-app.options("/authors/:id", pledgeCORS)
-app.getAsync("/authors/:id", pledgeCORS, getAuthor(services))
+app.options("/authors/", visionCORS)
+app.postAsync("/authors/", visionCORS, addAuthor(services))
+app.getAsync("/authors/", visionCORS, getAuthors(services))
+app.options("/authors/:id", visionCORS)
+app.getAsync("/authors/:id", visionCORS, getAuthor(services))
 
-app.options("/contributions/", pledgeCORS)
-app.getAsync("/contributions/", pledgeCORS, getContributions(services))
-app.options("/contributions/:id", pledgeCORS)
-app.getAsync("/contributions/:id", pledgeCORS, getContribution(services))
-app.postAsync("/contributions/", pledgeCORS, addContribution(services))
+app.options("/contributions/", visionCORS)
+app.getAsync("/contributions/", visionCORS, getContributions(services))
+app.options("/contributions/:id", visionCORS)
+app.getAsync("/contributions/:id", visionCORS, getContribution(services))
+app.postAsync("/contributions/", visionCORS, addContribution(services))
 
-app.options("/twitter/verify", pledgeCORS)
-app.postAsync("/twitter/verify", pledgeCORS, twitterVerify(services))
+app.options("/twitter/verify", visionCORS)
+app.postAsync("/twitter/verify", visionCORS, twitterVerify(services))
 
-app.options("/stats", pledgeCORS)
-app.getAsync("/stats", pledgeCORS, getStats(services))
+app.options("/stats", visionCORS)
+app.getAsync("/stats", visionCORS, getStats(services))
 
 // Health Check
 app.get("/ping", (_, res) => res.status(200).send("PONG"))

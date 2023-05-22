@@ -1,5 +1,5 @@
 {
-  "name": "pledge-server",
+  "name": "vision-server",
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",

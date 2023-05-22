@@ -7,16 +7,13 @@ export default function Hero() {
         className="text-3xl text-center md:text-8xl m-0"
         style={{ fontFamily: "Cosplay" }}
       >
-        Dao De Eden
+        Electric Tree
       </h1>
       <h2
-        className="text-5xl text-center md:text-5xl py-4"
+        className="text-5xl text-center md:text-5xl py-4 max-w-3xl"
         style={{ fontWeight: 700 }}
       >
-        is the Virtuous Way towards Eden,
-      </h2>
-      <h2 className="text-5xl text-center m-0 max-w-2xl">
-        towards reconnection, regeneration, harmony, and flourishing.
+        Igniting Climate Innovation through Decentralized Finance
       </h2>
     </div>
   )

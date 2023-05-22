@@ -19,7 +19,7 @@ export default function UniverseScene() {
 
   useEffect(() => {
     const scrollTrigger = {
-      trigger: "#pledge-content",
+      trigger: "#vision-content",
       start: 0,
       end: "top top",
       scrub: true,

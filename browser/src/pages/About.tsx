@@ -23,7 +23,7 @@ export function About() {
             stewards 🌱
           </h3>
           <p className="pt-0 text-xl">
-            <a href="">Laura</a> <a href="">Azarus</a> <a href="">Cyrus</a>
+            <a href="">Dave</a> <a href="">Cyrus</a>
           </p>
           <p className="!text-left">
             The above people stewarded this artifact to completion, but so many

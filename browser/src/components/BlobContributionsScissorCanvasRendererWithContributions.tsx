@@ -1,17 +1,18 @@
 import { useContext } from "react"
 import { ContributionsContext } from "src/helpers/contexts/ContributionsContext"
+
 import BlobContributionsScissorCanvasRenderer from "./BlobContributionsScissorCanvasRenderer"
 
 export default function BlobContributionsScissorCanvasRendererWithContributions() {
   const { contributions } = useContext(ContributionsContext)
 
-  if (contributions && contributions.length > 0) {
-    return (
-      <BlobContributionsScissorCanvasRenderer contributions={contributions} />
-    )
-  } else {
-    return <></>
+  if (!contributions || contributions.length === 0) {
+    return null
   }
+
+  return (
+    <BlobContributionsScissorCanvasRenderer contributions={contributions} />
+  )
 }
 
 // interface BlobContext {

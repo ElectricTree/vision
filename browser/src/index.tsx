@@ -15,25 +15,25 @@ import reportWebVitals from "./reportWebVitals"
 ReactDOM.render(
   <React.StrictMode>
     <Helmet>
-      <title>Pledge | eden dao</title>
+      <title>Vision | Electric Tree</title>
 
       {/* <!-- Social media tags --> */}
       <meta property="og:type" content="article" />
 
-      <meta property="og:title" content="Pledge | eden dao" />
+      <meta property="og:title" content="Vision | Electric Tree" />
 
       <meta
         property="og:description"
-        content="Towards a regenerative renaissance, come friend to resonate with the eden dao and sign our pledge."
+        content="Towards a regenerative renaissance, come friend to resonate with the Electric Tree and sign our vision."
       />
 
-      <meta property="og:site_name" content="Eden Dao" />
+      <meta property="og:site_name" content="Electric Tree" />
 
-      <meta name="twitter:title" content="Pledge | eden dao" />
+      <meta name="twitter:title" content="Vision | Electric Tree" />
 
       <meta
         name="twitter:description"
-        content="Towards a regenerative renaissance, come friend to resonate with the eden dao and sign our pledge."
+        content="Towards a regenerative renaissance, come friend to resonate with the Electric Tree and sign our vision."
       />
 
       <meta name="twitter:site" content="@TheEdenDao" />

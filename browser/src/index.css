@@ -175,14 +175,8 @@ main {
   /*    rgb(7, 7, 16, 1) 100%*/
   /*  ),*/
   /*  url(https://grainy-gradients.vercel.app/noise.svg);*/
-  background: radial-gradient(
-      at 0% 100%,
-      #e0c38e 0%,
-      #464cc9 40%,
-      #0000d9 60%,
-      #54b0a2 100%
-    )
-    fixed;
+  background: radial-gradient(at 0% 100%, #e2703a 0%, #000 100%),
+    url(https://grainy-gradients.vercel.app/noise.svg) fixed;
 }
 
 /* TODO: for now hide footnotes on small screens */
@@ -198,14 +192,6 @@ main {
     /*min-height: -webkit-fill-available;*/
     width: 100vw;
     position: fixed;
-    background: radial-gradient(
-        at 0% 100%,
-        #e0c38e 0%,
-        #464cc9 40%,
-        #0000d9 60%,
-        #54b0a2 100%
-      )
-      fixed;
   }
 }
 
