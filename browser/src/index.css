@@ -8,12 +8,6 @@
   }
 }
 
-@font-face {
-  font-family: "Cosplay";
-  src: local("Cosplay"), url(./fonts/CosplayRegular-Web.woff) format("woff"),
-    local("Cosplay"), url(./fonts/CosplayRegular-Web.woff2) format("woff2");
-}
-
 * {
   box-sizing: border-box;
 }
@@ -43,9 +37,8 @@
   --font-size-default: 16px;
   --font-size-small: 14px;
   --font-size-xsmall: 12px;
-  --font-family-primary: "Newsreader", serif;
-  --font-family-secondary: source-code-pro, Menlo, Monaco, Consolas,
-    "Courier New", monospace;
+  --font-family-primary: "Whyte Inktrap", sans-serif;
+  --font-family-secondary: "Inter", sans-serif;
 
   /* Border radius */
   --border-radius-default: var(--border-radius-8);
@@ -196,7 +189,7 @@ main {
 }
 
 .shimmer {
-  font-family: "Cosplay", serif;
+  font-family: "Whyte Inktrap", serif;
   text-shadow: none;
   background: linear-gradient(
       90deg,
@@ -238,7 +231,7 @@ blockquote:before {
 }
 
 .glass-button {
-  font-family: "Cosplay";
+  font-family: "Whyte Inktrap";
   display: inline-block;
   padding: 15px 15px 10px;
   text-decoration: none;

@@ -1,4 +1,5 @@
 import "./index.css"
+import "./fonts/whyte-inktrap/whyte-inktrap.css"
 
 import dayjs from "dayjs"
 import utc from "dayjs/plugin/utc"
@@ -24,7 +25,7 @@ ReactDOM.render(
 
       <meta
         property="og:description"
-        content="Towards a regenerative renaissance, come friend to resonate with the Electric Tree and sign our vision."
+        content="Towards a regenerative renaissance, come friend to resonate with Electric Tree and sign our vision."
       />
 
       <meta property="og:site_name" content="Electric Tree" />
@@ -33,7 +34,7 @@ ReactDOM.render(
 
       <meta
         name="twitter:description"
-        content="Towards a regenerative renaissance, come friend to resonate with the Electric Tree and sign our vision."
+        content="Towards a regenerative renaissance, come friend to resonate with Electric Tree and sign our vision."
       />
 
       <meta name="twitter:site" content="@TheEdenDao" />

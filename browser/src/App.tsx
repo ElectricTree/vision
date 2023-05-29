@@ -30,8 +30,8 @@ export default function App() {
         <footer className="pt-2 pb-16 px-2 text-center">
           <span>
             a drop from{" "}
-            <a href="https://twitter.com/TheEdenDao">Electric Tree</a>, which is
-            grateful to <a href="https://verses.xyz">Verses</a> for their{" "}
+            <a href="https://twitter.com/ElectricTree">Electric Tree</a>, which
+            is grateful to <a href="https://verses.xyz">Verses</a> for their{" "}
             <a href="https://pluriverse.world">Pluriverse</a>
           </span>
         </footer>
